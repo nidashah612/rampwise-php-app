@@ -1,10 +1,13 @@
 # RampWise: Accessible Campus Route Planner (Assignment 2: PHP and Fetch)
 
 **Assigned idea:** #18 Accessible Campus Route Planner (route segments, accessibility attributes, temporary closures and user-selected mobility constraints)
+
 **Author:** Nida Shah  **CMS ID:** 507819
+
 **Submitted to:** Dr. Muhammad Khuram Shahzad
+
 **Course:** CS-344-Web Engineering B 2K24-BESE-15
-**Instructor rule / data variant:** None. The instructor gave no extra rule or data variant, only the assigned idea (#18).
+
 
 ## User and problem
 A student or visitor with a mobility need (wheelchair, crutches, low stamina, stroller) must get between campus buildings. Normal maps do not show steps, steep slopes or broken lifts. The planner filters routes by those needs and shows travel time and warnings. Assignment 2 keeps the same user, records and look, and adds a server and database so routes and closure reports are saved and shared instead of lost on reload.
@@ -65,7 +68,8 @@ Report: `docs/Assignment2-Report.docx`. Mobile form view: `docs/mobile-form.png`
 The app only has direct routes between two buildings, so it cannot plan a trip with a stop in the middle. There is no login (identity is an anonymous session), and closures have no end date: a route stays closed until it is reopened.
 
 ## AI assistance disclosure
-Anthropic's Claude generated the initial draft of the code and the report. My own work was to set up and run the project on my computer (PHP, the seeded SQLite database and the server), test it end to end, review the code and report, and prepare the submission. I ran all the manual tests in the browser and ran the automated tests myself (15 passed, 0 failed). I checked the report against the running app and the assignment brief and completed the missing parts. I understand how the application works and can explain it and make a change to it. The interface screenshots in `docs/` were produced with the starter code and match the running app.
+Anthropic's Claude was used only to generate the initial draft, which I have fully reviewed, tested, and understood. Contains fictional sample data only—no real credentials or private data included.
+
 
 ## Attribution
 No third-party libraries, frameworks, images or templates. All sample data is invented. No credentials or private data are included; the database file is excluded by `.gitignore`.
